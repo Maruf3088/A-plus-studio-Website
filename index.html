@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A+ Studio</title>
+    <link rel="stylesheet" href="./input.css">
+    <!--remix icon-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <!--Tailwind css cdn-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--aos animation-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    },
+                    container: {
+                        padding: "1rem",
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+
+<body class="overflow-x-hidden scroll-smooth">
+    <!--nav section-->
+    <section class="flex justify-between container mx-auto py-8">
+        <h1 class="text-3xl md:text-2xl flex items-center cursor-pointer "><span class="font-bold">A</span>+ Studio
+        </h1>
+        <ul class=" gap-7 items-center hidden md:flex">
+            <li class="text-lg font-semibold hover:text-blue-700 duration-500"><a href="#hero">Home</a></li>
+            <li class="text-lg font-semibold hover:text-blue-700 duration-500"><a href="#whatwedo">What we do</a></li>
+            <li class="text-lg font-semibold hover:text-blue-700 duration-500"><a href="#project">Project</a></li>
+            <li class="text-lg font-semibold hover:text-blue-700 duration-500"><a href="#client">Client</a></li>
+            <li class="text-lg font-semibold hover:text-blue-700 duration-500"><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="text-2xl font-semibold md:hidden relative">
+            <i class="ri-menu-line menu-toggle"></i>
+            <ul class=" gap-7 items-center md:hidden absolute right-8 border bg-white w-[200px] p-6 z-10 shadow-xl opacity-0 scale-0 duration-500 transition-all rounded-xl mobile-menu">
+                <li class="text-lg font-semibold hover:text-blue-700 duration-500"><a href="#hero">Home</a></li>
+                <li class="text-lg font-semibold hover:text-blue-700 duration-500"><a href="#whatwedo">What we do</a>
+                </li>
+                <li class="text-lg font-semibold hover:text-blue-700 duration-500"><a href="#project">Project</a></li>
+                <li class="text-lg font-semibold hover:text-blue-700 duration-500"><a href="#client">Client</a></li>
+                <li class="text-lg font-semibold hover:text-blue-700 duration-500"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+    <!--Hero section-->
+    <section id="hero" class="py-10 2xl:container 2xl:mx-auto">
+        <div class="flex flex-col gap-5 md:gap-0 md:flex-row">
+            <div class="flex   items-center justify-center   md:max-w-[50%]  " data-aos="fade-right">
+                <div class="max-w-[90%] md:max-w-[80%] flex flex-col gap-5 lg:gap-10 relative ">
+                    <h1 class="text-4xl md:text-3xl lg:text-5xl  font-bold">A Digital Product Agency</h1>
+                    <p class="text-gray-500 sm:max-w-[70%] md:max-w-[90%]">Leading digital agency with solid design and
+                        development
+                        expertise.
+                        We build
+                        readymade websites, mobile applications, and elaborate online business services.</p>
+                    <button
+                        class="bg-blue-800 px-5 py-3 rounded-full text-white font-bold self-start z-10 hover:bg-blue-400 duration-200">Contact
+                        Now</button>
+                    <img src="./images/Dot Ornament.png" alt=""
+                        class="w-[296px] absolute -bottom-16 -left-4 hidden lg:block">
+                </div>
+
+            </div>
+            <div class="md:max-w-[50%] relative " data-aos="fade-left" data-aos-delay="500">
+                <img src="./images/image 8.png" alt="" class="relative z-10">
+                <img src="./images/Ellipse 85.png" alt="" class="absolute top-0 -left-16 ">
+                <img src="./images/Rectangle 23.png" alt=""
+                    class="absolute right-16 -bottom-12 lg:-bottom-24 md:-bottom-14">
+            </div>
+        </div>
+    </section>
+    <!--Logo Section-->
+    <section class="container mx-auto flex flex-col md:flex-row gap-5 py-14 md:py-16 lg:py-14 justify-between ">
+        <div>
+            <h1 class="text-4xl font-bold mb-5">Our Client</h1>
+            <p class="text-gray-500 lg:max-w-[70%]">Several selected clients, who already believe in our service.</p>
+        </div>
+        <div class="grid grid-cols-4 md:grid-cols-2 lg:grid-cols-4 place-items-center gap-5 md:gap-3 self-end">
+            <img src="./images/Google Logo.png" alt="">
+            <img src="./images/Airbnb Logo.png" alt="">
+            <img src="./images/Uber Eats Logo.png" alt="">
+            <img src="./images/Amazon Logo.png" alt="" class="self-end translate-y-2">
+        </div>
+    </section>
+    <!--Challenging part-->
+    <section
+        class="md:bg-[url('./images/bg.png')] bg-no-repeat bg-center    lg:bg-right-top ] my-16 max-w-[1470px] mx-auto"
+        id="whatwedo">
+        <div class="flex flex-col gap-20 lg:gap-0 lg:flex-row container mx-auto">
+            <div class="xl:w-1/2 flex  items-center ">
+                <div class="flex flex-col gap-5 relative" data-aos="fade-up">
+                    <h1 class="text-4xl font-bold z-10">How can we help <br> your Business ?</h1>
+                    <p class="text-gray-500 md:w-[70%] z-10">We build readymade websites, mobile applications, and
+                        elaborate
+                        online business
+                        services.</p>
+                    <img src="./images/Rectangle 25.png" alt="" class="absolute w-[100px] -top-5 -left-3">
+                    <img src="./images/Dot Ornament.png" alt="" class="w-[300px] absolute -bottom-full right-32">
+                </div>
+
+            </div>
+            <div class="xl:w-1/2 " data-aos="fade-in">
+                <div class=" flex gap-8 flex-col md:flex-row justify-center">
+                    <div class="space-y-8 md:-translate-y-16">
+                        <div
+                            class=" bg-white rounded-2xl flex flex-col gap-5 px-8 py-14  shadow-2xl  w-[270px] mx-auto sm:w-auto sm:mx-0  z-10 relative">
+                            <img src="./images/box-search 1.png" alt=""
+                                class="p-7 bg-[#F1F7FF] rounded-2xl self-center w-[100px]">
+                            <h1 class="text-[24px] font-bold text-center">Business Idea Planning</h1>
+                            <p class="text-gray-500 text-center">We present you a proposal and discuss niffty-gritty
+                                like
+                            </p>
+                        </div>
+                        <div
+                            class="  bg-white rounded-2xl flex flex-col gap-5 px-8 py-14  shadow-2xl w-[270px] mx-auto sm:w-auto sm:mx-0">
+                            <img src="./images/empty-wallet 1.png" alt=""
+                                class="p-7 bg-[#FFF7E3] rounded-2xl self-center w-[100px]">
+                            <h1 class="text-[24px] font-bold text-center">Financial Planning System</h1>
+                            <p class="text-gray-500 text-center">Protocols apart from aengage models, pricing billing
+                            </p>
+                        </div>
+                    </div>
+                    <div class="space-y-8 relative ">
+                        <div
+                            class=" bg-white rounded-2xl flex flex-col gap-5 px-8 py-14 shadow-2xl w-[270px] mx-auto sm:w-auto sm:mx-0">
+                            <img src="./images/code-1 1.png" alt=""
+                                class="p-7 bg-[#FFF2F8] rounded-2xl self-center w-[100px]">
+                            <h1 class="text-[24px] font-bold text-center">Development Website and App</h1>
+                            <p class="text-gray-500 text-center">Communication protocols apart from engagement models
+                            </p>
+                        </div>
+                        <div
+                            class=" bg-white rounded-2xl flex flex-col gap-5 px-8 py-14 shadow-2xl  w-[270px] mx-auto sm:w-auto sm:mx-0 z-10 relative ">
+                            <img src="./images/chart-square 1.png" alt=""
+                                class="p-7 bg-[#DEFFEE] rounded-2xl self-center w-[100px]">
+                            <h1 class="text-[24px] font-bold text-center">Market Analysis Project</h1>
+                            <p class="text-gray-500 text-center">Protocols apart from aengage models, pricing billing
+                            </p>
+
+                        </div>
+                        <img src="./images/ring.png" alt=""
+                            class="hidden absolute w-[100px] -bottom-10 right-5 sm:-right-10 ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Great digital product Section-->
+    <section class="container mx-auto flex flex-col md:flex-row gap-10 py-14" id="project">
+        <div class="md:w-1/2">
+            <div class="w-full relative">
+                <img src="./images/unsplash_bzqU01v-G54.png" alt="" class="w-full ">
+                <img src="./images/play.png" alt=""
+                    class="absolute top-1/2 left-1/2 tranform -translate-x-1/2 -translate-y-1/2 cursor-pointer z-10 w-[50px] lg:w-[80px]">
+            </div>
+
+        </div>
+        <div class="md:w-1/2 flex flex-col gap-5 justify-center relative" data-aos="fade-in">
+            <h1 class="text-4xl md:text-3xl lg:text-4xl font-bold z-10">Great Digital Product <br> Agency since 2016
+            </h1>
+            <p class="text-gray-500 text-sm z-10">Our Business Plan is a written document describing a company's core
+                business activites, Objectives, and how it plans to achieve its goals. Our goal is to provide our client
+                high quality Product with modern idea accordingly their budgets and according thir reuirements.</p>
+            <img src="./images/Rectangle 26.png" alt="" class="w-[120px] absolute 
+                top-0 md:top-3 lg:top-14 xl:top-32 -left-10 md:-left-2 ">
+        </div>
+    </section>
+    <!--client section-->
+    <section class="container mx-auto flex flex-col gap-5 " id="client">
+        <h1 class="text-3xl lg:text-4xl font-bold text-center">What our happy client say</h1>
+        <p class="text-center text-gray-500 md:mb-10 ">Several selected clients, who already believe in our service.</p>
+        <div class="flex flex-col md:flex-row gap-5">
+            <div class="md:w-1/3 flex items-center justify-center relative" data-aos="fade-in">
+                <img src="./images/unsplash_MTZTGvDsHFY.png" alt="" class="z-10">
+                <img src="./images/ring.png" alt="" class="absolute top-0 left-0">
+            </div>
+            <div class="self-center md:w-1/3 space-y-5" data-aos="fade-in" data-aos-delay="500">
+                <h1 class="text-2xl font-bold ">Matthew Paul</h1>
+                <p class="text-gray-500 ">Perfect, very good job! Thank you for the amazing design and work. Really
+                    impressed with the high quality and quick turnaround time. Highly recommend.</p>
+            </div>
+            <div class="md:w-1/3 flex items-center justify-center" data-aos="fade-in" data-aos-delay="200">
+                <img src="./images/Group 71.png" alt="" class="">
+            </div>
+        </div>
+
+    </section>
+    <!--Challenging part 2 section-->
+    <section
+        class="container mx-auto bg-[#F4F9FF] flex flex-col md:flex-row md:rounded-[80px] lg:rounded-[100px] gap-8 md:gap-0 my-14 py-5 sm:py-0 "
+        id="contact" data-aos="flip-left">
+        <div class="lg:w-[60%] flex items-center justify-center">
+            <div class="md:px-5">
+                <h1 class="text-3xl  md:text-2xl text-center md:text-left lg:text-4xl font-bold mb-2">Subscribe
+                    Newsletter</h1>
+                <p class="text-gray-500 text-center md:text-left">I will update good news and promotion service not spam
+                </p>
+            </div>
+        </div>
+        <div class="lg:w-[40%] relative">
+            <img src="./images/Rectangle 31.png" alt="" class=" translate-x-4">
+            <div class="absolute top-1/2 transform -translate-y-1/2 lg:-left-10 bg-white p-2 rounded-full shadow-2xl">
+                <input type="email" placeholder="Enter your email address." c class="outline-none p-2">
+                <button class="bg-blue-700 text-white font-bold rounded-full p-3 hover:bg-blue-400 duration-200">Contact
+                    Now</button>
+            </div>
+        </div>
+    </section>
+    <!--Footer Section-->
+    <section>
+        <div
+            class="container mx-auto grid md:grid-cols-3 lg:w-[60%] gap-5 xl:grid-cols-6 xl:gap-10 xl:w-[80%] py-14  border-t-2">
+            <div class="flex flex-col gap-5 xl:col-span-2  ">
+                <h1 class="text-3xl"><span class="font-bold">A</span>+ Studio</h1>
+                <p class="text-gray-500">Leading digital agency with solid design and development expertise. We build
+                    readymade websites, mobile applications, and elaborate online business services.</p>
+                <div class="flex gap-3 text-2xl text-blue-700">
+                    <i class="ri-facebook-circle-fill"></i>
+                    <i class="ri-instagram-fill"></i>
+                    <i class="ri-whatsapp-fill"></i>
+                </div>
+            </div>
+            <div class="flex flex-col gap-5">
+                <h1 class="text-xl font-bold">What We Do</h1>
+                <ul class="flex flex-col gap-2">
+                    <li>Web Design </li>
+                    <li>App Design</li>
+                    <li>Social Media Manage </li>
+                    <li>Market Analysis Project</li>
+                </ul>
+            </div>
+            <div class="flex flex-col gap-5">
+                <h1 class="text-xl font-bold">Company</h1>
+                <ul class="flex flex-col gap-2">
+                    <li>About Us </li>
+                    <li>Career</li>
+                    <li>Become Investor </li>
+
+                </ul>
+            </div>
+            <div class="flex flex-col gap-5">
+                <h1 class="text-xl font-bold">Support</h1>
+                <ul class="flex flex-col gap-2">
+                    <li>FAQ</li>
+                    <li>Policy</li>
+                    <li>Business </li>
+
+                </ul>
+            </div>
+            <div class="flex flex-col gap-5">
+                <h1 class="text-xl font-bold">Contact</h1>
+                <ul class="flex flex-col gap-2">
+                    <li>WhatsApp</li>
+                    <li>Support 24</li>
+
+
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    <section class=" text-gray-500 text-center py-10 border-t-2 container mx-auto">Copyright © 2022 Maruf Islam
+    </section>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: false,
+            offset: "350"
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
